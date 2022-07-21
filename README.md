@@ -15,7 +15,7 @@ The key is the name of the label in your repository that you want to add (eg: "m
 ```yml
 # Add/remove 'critical' label if issue contains the words 'urgent' or 'critical'
 critical:
-    - '(critical|urgent)'
+  - "(critical|urgent)"
 ```
 
 ### Create Workflow
@@ -43,7 +43,6 @@ jobs:
 `not-before` is optional and will result in any issues prior to this timestamp to be ignored.
 
 _Note: The above workflow grants access to the `GITHUB_TOKEN` so the action can make calls to GitHub's REST API._
-
 
 ### Example using versioned issue templates
 

@@ -107,7 +107,7 @@ async function run() {
     .filter(Boolean);
 
   if (rejected.length) {
-    throw new AggregateError(rejected)
+    throw new AggregateError(rejected);
   }
 }
 
