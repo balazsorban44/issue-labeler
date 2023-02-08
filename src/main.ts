@@ -234,4 +234,4 @@ function removeLabel(client: GitHubClient, issue_number: number) {
   };
 }
 
-run().catch((error) => setFailed(error.message));
+run().catch(setFailed);
